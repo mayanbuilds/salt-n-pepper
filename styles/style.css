@@ -13,6 +13,15 @@ html{
     src: url(../Assets/Fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
+@font-face {
+    font-family: futurak;
+    src: url(../Assets/fonts/futurak/futurablack-bt.ttf);
+}
+
+@font-face {
+    font-family: apercu;
+    src: url(../Assets/fonts/apercue/apercu-regular.ttf);
+}
 
 :root{
     --black: #000000;
@@ -96,3 +105,205 @@ nav {
     width: 100%;
 }
 /* slider image ended */
+
+/* our brand started */
+.our-brand {
+    margin: 50px;
+}
+.our-brand > h2 {
+    font-family: apercu;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 100;
+}
+.futurak-font{
+    font-family: futurak;
+    font-size: 5rem;
+}
+.our-brand > p{
+    margin: 20px 0px;
+    text-align: center;
+    color: #ffffffb3;
+    font-size: 1.2rem;
+}
+.brand-image{
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+}
+.brands-children{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.brands-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ourbrands-btn{
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: var(--white);
+    border: 1px solid #4d4d4d;
+    padding: 15px 40px;
+    border-radius: 20px;
+
+}
+/* our brand ended */
+
+
+/* ============ Franchises Section ============ */
+
+.franchise-section,
+.express-section,
+.village-section {
+    padding: 50px;
+    text-align: center;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.franchise-section h2,
+.express-section h2,
+.village-section h2 {
+    font-size: 3.2rem;
+    font-family: apercu;
+    margin-bottom: 10px;
+}
+
+.franchise-cards,
+.express-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.franchise-card,
+.express-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    width: 280px;
+    text-align: center;
+}
+
+.franchise-card img,
+.express-card img,
+.village-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.franchise-card h3,
+.express-card h3,
+.village-card h3 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.express-card p {
+    font-size: 1.4rem;
+    color: #ccc;
+}
+
+.direction-btn {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid #4d4d4d;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+}
+
+.direction-btn:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* ============ Village Section ============ */
+
+.village-card {
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+/* ============ Social Feed ============ */
+
+.social-feed {
+    padding: 50px;
+    text-align: center;
+    background-color: #111;
+}
+
+.social-feed h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-family: apercu;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.social-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ============ Footer ============ */
+
+.main-footer {
+    background-color: #000;
+    color: var(--white);
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border-top: 1px solid #333;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.footer-contact p {
+    font-size: 1.3rem;
+    color: #cccccc;
+    margin: 5px 0;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 20px;
+}
