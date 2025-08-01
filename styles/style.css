@@ -1,309 +1,668 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-size: 62.5%;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @font-face {
-    font-family: inter;
-    src: url(../Assets/Fonts/Inter-VariableFont_opsz\,wght.ttf);
+  font-family: futurak;
+  src: url(../Assets/fonts/futurak/futurak.ttf);
 }
 
-@font-face {
-    font-family: futurak;
-    src: url(../Assets/fonts/futurak/futurablack-bt.ttf);
-}
 
 @font-face {
-    font-family: apercu;
+    font-family: Apercu Pro;
     src: url(../Assets/fonts/apercue/apercu-regular.ttf);
 }
 
-:root{
-    --black: #000000;
-    --white:#ffffff;
-    --red:#ff0134;
-    --gray:#0f0f0f;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --black: #000000;
+  --red: #ed1c24;
+  --white: #ffffff;
+  --text: #ffffffb3;
+}
+
+
+
+#home{
+  padding: 12px 16.5px ;
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--white);
+    background-color: transparent;
+    cursor: pointer;
+    
+  
+  
+}
+
+#about{
+  padding: 12px 16.5px ;
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--white);
+    background-color: transparent;
+    
+}
+
+#button3{
+  padding: 12px 16.5px ;
+  background-color: var(--red);
+  border-radius: 25px;
+  color: var(--white);
+  cursor: pointer;
+    
+    border: none;
+}
+#button2{
+  padding: 12px 16.5px ;
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--white);
+    background-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    
 }
 
 body{
-    background-color: var(--black);
-    color: var(--white);
-    font-family: inter;
+    background-color: black;
 }
-
-
-/* navbar started */
-
-.main-logo{
+#img{
     width: 165px;
 }
-
-.nav-items > a{
-    color: var(--white);
-    font-size: 1.9rem;
-    text-decoration: none;
-}
-
-.nav-items > button {
-    font-size: 1.6rem;
-    cursor: pointer;
-}
-
-.nav-items{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-}
-
-
-nav {
+#navbar{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     align-items: center;
-    margin: 10px 0px;
+
 }
-
-.franchise-btn{
-    background-color: transparent;
-    color: var(--white);
-     border: 1px solid var(--white);
-    padding: 10px 15px;
-    border-radius: 30px;
+#m{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    font-size: larger;
 }
-
-
-.order-btn{
-    background-color: var(--red);
-    color: var(--white);
-    border: none;
-    padding: 12px 17px;
-    border-radius: 30px;
+#img1{
+    width: 165px;
 }
+#button1{
 
-.order-icon{
-    color: var(--red);
-    background-color: var(--white);
-    padding: 5px 6px;
-    border-radius: 25px;
+width: 102.86px;
 }
-
-
-/* navbar ended */
-
-
-
-/* slider image started */
-
-.slider-image{
+#img2{
     width: 100%;
 }
-/* slider image ended */
 
-/* our brand started */
-.our-brand {
-    margin: 50px;
-}
-.our-brand > h2 {
-    font-family: apercu;
-    font-size: 3.5rem;
+#par{
+    color: white;
     text-align: center;
-    font-weight: 100;
+    justify-content: center;
+    
+}
+#par1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--text);
+    text-align: center;
+}
+#h2{
+    color: white;
+    text-align: center;
+}
+#pic1{
+    background-color: #ffff;
+}
+
+#card1{
+  background-color: #ffff;
+}
+
+
+
+#card2{
+  background-color: #ffff;
+}
+#card3{
+  background-color: #ffff;
+}
+#card4{
+  background-color: #ffff;
+}
+
+#divbtn{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+#hamburger{
+  display: none;
+}
+
+
+
+
+
+#main-conatiner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px;
+
+}
+
+
+
+#brands-conatiner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+
+
+
+
+
+
+#maindiv{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.brand-image{
+  background-color: var(--white);
+  width: 260px;
+  height: 140px;
+  display: flex;
+  border-radius: 10px;
+}
+
+#Salt{
+  color: var(--white);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  font-family: Apercu Pro;
+  margin-top: 50px
+
+  
+}
+#paper{
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 52px}
+
+#resturent{
+  font-size: 32px;
+  font-weight: 200;
+  font-family: Apercu Pro;
+  margin-top: 20px;
+  color: var(--white);
+}
+
+#addres-isl{
+  font-size: 16px;
+  font-weight: 546;
+  font-family: Apercu Pro;
+  margin-top: 20px;
+  color: var(--white);
+}
+
+#phone-isl{
+  font-size: 16px;
+  font-weight: 546;
+  font-family: Apercu Pro;
+  margin-top: 20px;
+  color: var(--white);
+}
+
+#Direction-btn{
+  padding: 12px 16.5px ;
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--white);
+    background-color: transparent;
+    border: 1px solid;
+}
+
+#sal1{
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 52px;
+  color: var(--white);
+  text-align: center;
+  margin-top: 130px;
+  justify-content: center;
+}
+
+#par2{
+  color: var(--white);
+  text-align: center;
+  justify-content: center;
+  font-size: 48px;
+}
+#par3{
+  color: var(--text);
+  text-align: center;
+  justify-items: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+#Islamabad{
+  color: var(--red);
+}
+
+#main{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  
+  padding: 40px 0px;/
+}
+.franchise-saltn{
+  
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 32px;
+  color: var(--white);
+}
+#par4{
+  color: var(--white);
+  font-size: 32px;
+  margin-top: 20px;
+
+}
+#isl-ad{
+  color: var(--white);
+  font-size: 16px;
+  margin-top: 20px;
+
+}
+#isl-ph{
+  color: var(--white);
+  font-size: 16px;
+  margin-top: 20px;
+}
+#main1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+    gap: 30px;
+  padding: 40px 0px;/
+}
+
+#fasalabad{
+  color: var(--red);
+}
+
+
+
+#Express{
+  flex-wrap: wrap;
+}
+
+#Pepper{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+#flex-row{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+#Order-btn{
+padding: 15px 20px ;
+background-color: transparent;
+border-radius: 25px;
+color: var(--white);
+  background-color: transparent;
+border: 1px solid white ;
+
+
+
+}
+
+
+.text-red{
+    color: var(--red);
+}
+
+p{
+  padding: 8px 8px;
+  color: rgb(170, 170, 170);
+  font-family: Apercu Pro;
+
+}
+
+
+
+.images-hotels{
+    width: 320px;
+    height: 250px;
+}
+
+
+
+
+#sar1{
+ 
+  padding: 12px 16.5px ;
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--white);
+    background-color: transparent;
+    border: 1px solid;
+
+}
+#jhe1{
+
+  padding: 12px 16.5px ;
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--white);
+    background-color: transparent;
+    border: 1px solid;
+
+}
+
+#fai1{
+  
+  padding: 12px 16.5px ;
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--white);
+    background-color: transparent;
+    border: 1px solid;
+
+
+}
+
+
+
+
+
+
+.Express-saltn{
+
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 25px}
+
+
+
+  #Gujranwala-row{
+    display: flex;
+    padding: 30px 0px;
+    
+}
+
+#Gujranwala-text{
+  padding: 50px 5px;
+}
+
+
+
+
+.Village-image{
+  width: 538px;
+  height: 309px;
+}
+
+
+    
+
+
+#Gujranwala-text{
+    padding: 50px 5px;
+}
+
+
+
+
+
+.Gujranwala-btn{
+  background-color: rgb(18, 208, 18);
+  border: none;
+  color: var(--white);
+  border-radius: 25px;
+  padding: 17px 20px;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+
+
+#par5{
+  font-size: 48px;
+}
+#salt1{
+  color: var(--white);
+  text-align: center;
+  justify-content:center ;
+
+}
+#Pepper{
+  color: var(--white);
+  text-align: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+  
+  
+
+  
+
 }
 .futurak-font{
-    font-family: futurak;
-    font-size: 5rem;
-}
-.our-brand > p{
-    margin: 20px 0px;
+  
+  
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 52px}
+
+
+  #Social-feed{
     text-align: center;
-    color: #ffffffb3;
-    font-size: 1.2rem;
-}
-.brand-image{
-    background-color: var(--white);
-    padding: 10px;
-    border-radius: 10px;
-}
-.brands-children{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-}
-.brands-container{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    margin: 30px;
+  
 }
 
-.ourbrands-btn{
-    background-color: transparent;
-    font-size: 1.5rem;
-    color: var(--white);
-    border: 1px solid #4d4d4d;
-    padding: 15px 40px;
-    border-radius: 20px;
 
+#Social-feed-image{
+  display: flex;
+  gap: 30px;
+  padding: 40px 0px;
+  flex-wrap: wrap;
 }
-/* our brand ended */
-
-
-/* ============ Franchises Section ============ */
-
-.franchise-section,
-.express-section,
-.village-section {
-    padding: 50px;
-    text-align: center;
-    background-color: var(--black);
-    color: var(--white);
+.Social-image{
+  width: 230px;
+  height: 230px;
 }
 
-.franchise-section h2,
-.express-section h2,
-.village-section h2 {
-    font-size: 3.2rem;
-    font-family: apercu;
-    margin-bottom: 10px;
+
+
+
+#pub{
+  color: white;
 }
 
-.franchise-cards,
-.express-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 30px;
+
+
+a{
+  text-decoration: none;
+
+}
+#ham{
+  display: none;
 }
 
-.franchise-card,
-.express-card {
-    background-color: #1a1a1a;
-    padding: 20px;
-    border-radius: 15px;
-    width: 280px;
-    text-align: center;
+/* footer start */
+#main-footer{
+  margin: 70px;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.franchise-card img,
-.express-card img,
-.village-card img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
+h3{
+  padding: 0px 8px 10px;
+  
 }
 
-.franchise-card h3,
-.express-card h3,
-.village-card h3 {
-    font-size: 1.8rem;
-    margin: 10px 0;
+.footer-img{
+  width: 140px;
+  display: flex;
+  
 }
 
-.express-card p {
-    font-size: 1.4rem;
-    color: #ccc;
+
+#footer-para{
+  width: 320px;
+ 
 }
 
-.direction-btn {
-    background-color: transparent;
-    color: var(--white);
-    border: 1px solid #4d4d4d;
-    padding: 10px 20px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 1.4rem;
-    transition: all 0.3s ease;
+#food-cout{
+  width: 250px;
 }
 
-.direction-btn:hover {
-    background-color: var(--white);
-    color: var(--black);
+#Powered-by{
+  display: flex;
+  color: rgb(170, 170, 170);
+  justify-content: center;
+  gap: 55%;
+  font-family: Apercu Pro;
 }
 
-/* ============ Village Section ============ */
 
-.village-card {
-    width: 80%;
-    max-width: 700px;
-    margin: 30px auto;
-    background-color: #1a1a1a;
-    padding: 25px;
-    border-radius: 15px;
+/* footer end */
+
+
+/* coming catds start */
+
+
+#div1{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
+.cards{
+  color: #000000;
+  margin: 5px 5px;
+      width: 356px;
+      height: 230px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      justify-items: center;
+      
+      
+      
+  }
+  #card-parent{
+    margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  flex-wrap: wrap;
+      
+  
+  }
+  
+
+
+
+/* coming catds end*/
+/* #par5{
+  font: 48px;
+  font-family: ;
+} */
+
+
+/* media quries start */
+
+
+@media only screen and (max-width: 540px) {
+  
+  body {
+    background-color: var(--black);}
+    #home{
+      display: none;
+    }
+    #about{
+      display: none;
+    }
+    #pub{
+      display: none;
+    }
+    #button2{
+      display: none;
+    }
+    #button1{
+      justify-content: space-around;
+      background-color: red;
+      padding: 5px 10px;
+      border-radius: 15px;
+      color: var(--white);
+      
+    border: 1px solid;
+    }
+    #img1{
+      align-items: center;
+      justify-content: center;
+    }
+    .i{
+      display: block;
+      font-size: large;
+    }
+    #maindiv{
+      
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    #divbtn{
+      display: none;
+    }
+    #ham{
+      display: block;
+      color: #ffff;
+      top: 80px;
+    
+      
+    }
+    
+
+  
+  
 }
-
-/* ============ Social Feed ============ */
-
-.social-feed {
-    padding: 50px;
-    text-align: center;
-    background-color: #111;
-}
-
-.social-feed h2 {
-    font-size: 3rem;
-    margin-bottom: 30px;
-    font-family: apercu;
-}
-
-.social-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
-}
-
-.social-grid img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-/* ============ Footer ============ */
-
-.main-footer {
-    background-color: #000;
-    color: var(--white);
-    padding: 50px 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-    border-top: 1px solid #333;
-}
-
-.footer-logo img {
-    width: 150px;
-}
-
-.footer-links {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.footer-links a {
-    color: var(--white);
-    text-decoration: none;
-    font-size: 1.4rem;
-}
-
-.footer-contact p {
-    font-size: 1.3rem;
-    color: #cccccc;
-    margin: 5px 0;
-}
-
-.copyright {
-    font-size: 1.2rem;
-    color: #777;
-    margin-top: 20px;
-}
+/* media quries start */
