@@ -50,15 +50,25 @@
     
 }
 
-#button3{
-  padding: 12px 16.5px ;
-  background-color: var(--red);
-  border-radius: 25px;
-  color: var(--white);
-  cursor: pointer;
-    
+
+.order-btn{
+    background-color: var(--red);
+    color: var(--white);
     border: none;
+    padding: 12px 17px;
+    border-radius: 30px;
+    cursor: pointer;
 }
+
+.order-icon{
+    color: var(--red);
+    background-color: var(--white);
+    padding: 5px 6px;
+    border-radius: 25px;
+}
+
+
+
 #button2{
   padding: 12px 16.5px ;
   background-color: transparent;

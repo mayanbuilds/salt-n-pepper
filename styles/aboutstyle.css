@@ -86,7 +86,7 @@ a{
   margin: 25px 0px 0px;
   font-size: 16px;
   color: rgb(177, 167, 167);
-  font-family: 'Apercu Pro', sans-serif;
+  font-family: Apercu Pro,;
 }
 
 #restaurant-text{
@@ -98,7 +98,7 @@ a{
   margin: 20px 0px 0px;
   font-size: 14px;
   color: rgb(177, 167, 167);
-  font-family: 'Apercu Pro', sans-serif;
+  font-family: Apercu Pro;
 }
 
 #row-1{
@@ -329,7 +329,7 @@ h3{
   color: rgb(170, 170, 170);
   justify-content: center;
   gap: 55%;
-  font-family: 'Apercu Pro', sans-serif;
+  font-family: Apercu Pro;
 }
 
 
